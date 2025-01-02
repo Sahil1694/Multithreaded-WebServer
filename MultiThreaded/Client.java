@@ -27,7 +27,8 @@ public class Client {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    // The socket will be closed automatically when leaving the try-with-resources block
+                    // The socket will be closed automatically
+                    // when leaving the try-with-resources block
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
